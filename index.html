@@ -1,0 +1,120 @@
+<!DOCTYPE html>
+<html lang="pt-BR">
+<head>
+    <meta charset="UTF-8">
+    <meta name="viewport" content="width=device-width, initial-scale=1.0">
+    <title>Clube da Informática</title>
+    <link rel="stylesheet" href="./style.css">
+    <link rel="shortcut icon" href="./assets/icon.png" type="image/x-icon">
+    <link rel="preconnect" href="https://fonts.googleapis.com" />
+    <link rel="preconnect" href="https://fonts.gstatic.com" crossorigin />
+    <link
+      href="https://fonts.googleapis.com/css2?family=DM+Sans:wght@400;700&display=swap"
+      rel="stylesheet"
+    />
+</head>
+<body>
+    <nav id="menu" class="margem">
+        <div id="titulo">
+            <img id="negado" src="./assets/icon.png">
+            <h1 id="negado">Clube da Informática</h1>
+        </div>
+
+        <!--
+        <div id="links">
+            <a href="#home">Home</a>
+            <a href="#cursos">Cursos</a>
+            <a href="#sobre">Sobre</a>
+        </div>
+
+        <div id="cadastro">
+            <a href="#">Login</a>
+            <a href="#">Cadastro</a>
+        </div>
+        -->
+    </nav>
+
+    <section id="home"class="margem">
+            <header>
+                <h2>Bem vindo ao <strong>Clube da Informática</strong> !</h2>
+                <h1>Aprenda <strong>Programação</strong> na prática e descubra uma nova profissão criativa!</h1>
+            </header>
+
+            <div>
+                <img src="./assets/home_img.jpg">
+            </div>
+
+            <div id="ofertas">
+                <div class="oferta">
+                    <h3>Quero Aprender de <strong>Graça</strong></h3>
+                    <p>Acesse textos e vídeos criados para você aprender tudo sobre prgramação, lógica, carreira e muito mais.</p>
+                    <a class="button_oferta">Aprender de Graça !</a>
+                </div>
+                <div class="oferta">
+                    <h3>Quero ser <strong>Profissional</strong></h3>
+                    <p>Com os nossos cursos você vai dominar as principais ferramentas do mercado e ganhar dinheiro com programação!</p>
+                    <a class="button_oferta">Se tornar profissional !</a>
+                </div>
+            </div>
+    </section>
+
+    <section id="cursos">
+        <div class="margem">
+            
+            <div id="ebook">
+                <p>Se cadastre no <Strong>Clube da Informática</Strong> para receber notificações diárias e conteúdos exclusivos!</p>
+        
+                <img src="">
+        
+                <form action="#" method="get">
+                    <input class="input_texto" type="text" placeholder="Qual seu nome ?">
+        
+                    <input class="input_texto" type="text" placeholder="Qual seu email ?">
+        
+                    <input class="input_button" type="button" value="Enviar !">
+                </form>
+            </div>
+
+            <h2>Cursos Disponíveis</h2>
+
+            <div id="cards">
+            </div>
+
+            <button onclick="addCards()" id="button_cursos">Ver mais</button>
+        </div>
+    </section>
+
+    <section id="sobre">
+        <div class="margem">
+            <div class="col-a">
+                <header>
+                    <h3>Sobre nós</h3>
+                    <h2>Quem somos e por que escolher o <strong>Clube da Informática</strong> ? </h2>
+                </header>
+    
+                <p>Lorem ipsum dolor sit, amet consectetur adipisicing elit. Quaerat a eveniet, recusandae natus autem adipisci veritatis repudiandae impedit facilis mollitia, debitis temporibus quisquam quos nisi quia quas provident laboriosam tenetur. Lorem ipsum dolor sit amet consectetur adipisicing elit. Numquam minima iusto quae nesciunt ratione, quos, nostrum dolores quia quidem excepturi quibusdam est aliquam pariatur, inventore cumque neque. </p>
+            </div>
+            <div id="col-b">
+                <img src="./assets/sobre_img.jpg">
+            </div>
+        </div>
+    </section>
+
+    <footer>
+        <div class="margem">
+            <div id="titulo">
+                <img src="./assets/icon.png">
+                <h2>Clube da Informática</h2>
+            </div>
+
+            <p id="direitos">@2023 Clube da Informática <br>
+                Todos os Direitos Reservados.</p>
+
+            <p>Endereço : Rua Biluteteia n° 42, Campo Grande MS.</p>
+            <p>Telefone : +55 (67) 9955-4433</p>
+        </div>
+    </footer>
+
+    <script src="./scripts.js"></script>
+</body>
+</html>
